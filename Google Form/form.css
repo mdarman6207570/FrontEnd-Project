@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #e7e7e7
+
+}
+
+.login-form{
+    position: relative;
+    padding: 50px 30px;
+    box-shadow: 1px 2px 11px 0px rgba(0, 0, 0, 0.2), -5px -5px 10px 2px #ffffff;
+    border-radius: 10px;
+
+}
+
+.logo{
+    height: 100px;
+    width: 100px;
+    background-image: url(./imag/logo.jpg);
+    background-size: 100px 100px;
+    border-radius: 50%;
+    position:absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h1{
+    text-align: center;
+    margin: 20px 0;
+}
+
+.content{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.content input{
+    width: 300px;
+    padding: 5px;
+    font-size: 2rem;
+    border: none;
+    background: none;
+    outline: none;
+    text-align: center;
+    border-radius: 25px;
+    box-shadow: inset 8px 8px 8px #c4c7ca, inset -8px -8px 8px  #ffffff;
+}
+
+button{
+    outline: none;
+    border: none;
+    font-size: 2rem;
+    padding: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #198a4c;
+    transition: all 500ms ease-in;
+    text-transform: uppercase;
+    transition-property: background, box-shadow, transform;
+    box-shadow: 1px 2px 1px 2px rgba(0, 0, 0, 0.2), -5px -5px 5px 2px #ffffff;
+}
+
+button:hover{
+    background-color: #37ac92;
+}
+
+
+button:active{
+    transform: scale(.98);
+    background-color: #104b293e;
+    box-shadow: inset1px 2px 1px 2px rgba(0, 0, 0, 0.2), -5px -5px 5px 2px #ffffff;
+}
+
+.lighten{
+    color: #928989;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin: 10px 0;
+}
+
+.icons{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.facebook{
+    color: #3b5998;
+}
+.instagram{
+    color: #bf2c53;
+}
+.twitter{
+    color: #00acee;
+}
+.mail{
+    color: #ea3535;
+}
